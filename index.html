@@ -20,25 +20,35 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#interest">Interests</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About me</a>
+                        </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interest">Interests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publications">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#research">Research</a>
+                        </li>
+                        <!-- <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#work">Work</a>
-                          </li>
-                          <li class="nav-item">
+                        </li> -->
+                        <!-- <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#opensource">Open Source</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#courses">Courses</a>
-                          </li>
-                          <li class="nav-item">
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#courses">Projects</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#personal">Personal</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#links">Links</a>
-                          </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Links</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -81,9 +91,9 @@
                   <img src="assets/profile_image.jpg" class="rounded-circle float-center img-responsive" style="width:300px ; height:300px">
                 </div>
                 <div class="col-sm-6 mx-auto">
-                  <p class="lead about-me">Welcome to my page! </p>
+                  <!-- <p class="lead about-me">Welcome to my page! </p> -->
                   <p class="lead about-me">I'm a graduate student in
-                    <a href="http://sdm.unist.ac.kr/home" target="_blank"> Statistical Decision Making Lab </a>
+                    <a href="http://sdm.unist.ac.kr/home" target="_blank">Statistical Decision Making Lab</a>
                     at UNIST </br>
                     (Advisor: Prof. Gi-Soo Kim)
                   </p>
@@ -95,31 +105,169 @@
             </div>
           </section>
 
-        <!-- Services section-->
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Services we offer</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                    </div>
+        <!-- Education section-->
+        <section id="education" class="bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h2>Education</h2>
+                  <p class="lead">
+                    <ul>
+                      <li class="lead">M.S in Artificial Intelligence Graduate School, UNIST, Ulsan, Korea. (Mar. 2022 -) </li>
+                      <li class="lead">B.S in Industrial Engineering (Major) and Computer Science and Engineering (Minor), UNIST, Ulsan, Korea, Feb. 2022</li>
+                    </ul>
+                  </p>
                 </div>
+              </div>
             </div>
         </section>
+
+
+        <!-- Interest section-->
+        <section id="interest">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h2>Research Interests</h2>
+                  <p class="lead">
+                    <ul>
+                      <li class="lead">Causal Inference</li>
+                      <li class="lead">Bandit Algorithm</li>
+                      <li class="lead">Machine Learning Platform</li>
+                      <li class="lead">Big Data Analytic Platform</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Publicaion Section-->
+        <section id="publications" class="bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h2>Publications</h2>
+                  <p class="lead">
+                    <!-- <ul>
+                      <li class="lead">
+                        Jin Yang, Heejin Yoon, <b>Gyeongchan Yun</b>, Sam H. Noh, and Young‐ri Choi,
+                        <b>DyTIS: A Dynamic Dataset Targeted Index Structure Simultaneously Efficient for Search, Insert, and Scan</b>,
+                        Proceedings of the 18th European Conference on Computer Systems (<b>EuroSys'23</b>), 2023. 
+                        <a href="https://dl.acm.org/doi/pdf/10.1145/3552326.3587434" target="_blank"> [paper] </a>
+                        <a href="https://github.com/unist-ssl/DyTIS" target="_blank"> [code] </a>
+                      </li>
+                      <li class="lead">
+                        Jay H. Park, <b>Gyeongchan Yun</b>, Chang M. Yi, Nguyen T. Nguyen, Seungmin Lee, Jaesik Choi, Sam H. Noh, and Young‐ri Choi,
+                        <b>HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism</b>,
+                        accepted for 2020 USENIX Annual Technical Conference (<b>USENIX ATC '20</b>), 2020. <a href="https://www.usenix.org/system/files/atc20-park.pdf" target="_blank"> [paper] </a>
+                      </li>
+                    </ul> -->
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- Research Section-->
+        <section id="research">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                <h2>Research Experience</h2>
+                <p class="lead">
+                    <ul>
+                    <li class="lead">Statistical Decision Making Lab at UNIST (Feb. 2022 - )</li>
+                    <p>Graduate Research Intern (Advisor: Prof. Gi-Soo Kim)<p>
+                    <li class="lead">Statistical Decision Making Lab at UNIST (Sep. 2021 - Feb. 2022)</li>
+                    <p>Undergraduate Research Intern (Advisor: Prof. Gi-Soo Kim)<p>
+                    </ul>
+                </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Projects Section-->
+        <section id="projects">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h2>Course Projects</h2>
+                  <p class="lead">
+                    <ul>
+                      <li class="lead">2022 Fall (Graduate)</li>
+                      <p>Machine Learning: "Linear Bandit PAM"<p>
+                      <li class="lead">2021 Spring (Undergraduate)</li>
+                      <p>Deep Learning: "Twitter RecSys Challenge 2021" <a href="https://github.com/YeongHo-Lee/recsys_chal_2021_dgann_submission" target="_blank">[github]</a><p>
+                      <li class="lead">2021 Spring (Undergraduate)</li>
+                      <p>Machine Learning: "Music Recommender System"<p>
+                  </ul>
+                  </p>
+                
+                  <h2>Lab Projects</h2>
+                  <p class="lead">
+                    <ul>
+                        <li class="lead">2022 Spring (Graduate)</li>
+                        <p>Deep Learning: "Improved machine tool thermal displacement correlation and compensation algorithms"<p>
+                        <li class="lead">2022 Spring - 2023 Fall (Graduate)</li>
+                        <p>Machine Learning: "Causal inference based lifestyle coaching system for thyroid disease patients when Lifestyle Variables are Continuous"<p>
+                        <li class="lead">2021 Summer - 2022 Summer</li>
+                        <p>Machine Learning: "Causal inference based lifestyle coaching system for thyroid disease patients."<p>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+        <!-- Personel Section-->
+        <section id="personal" class="bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h2>Personal Projects</h2>
+                  <p class="lead">
+                    <ul>
+                      <li class="lead"> Paper readings </li>
+                      <p> Research Papers I read <a href="https://github.com/YeongHo-Lee/research-papers-I-read" target="_blank">[github]</a> </p>
+                      <p> Algorithms I implment <a href="https://github.com/YeongHo-Lee/algorithm-I-implement" target="_blank">[github]</a> </p>
+                      <li class="lead"> Projects </li>
+                      <p> jane-street-market-prediction<a href="https://github.com/YeongHo-Lee/jane-street-market-prediction" target="_blank">[github]</a> </p>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+
         <!-- Contact section-->
         <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact us</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 mx-auto">
+                    <h2>Contacts</h2>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm text-center">
+                      <i class="fa fa-3x fa-envelope wow"></i>
+                      <p class="lead">
+                        <a href="mailto:lyh1030.yhl@gmail.com" target="_blank">lyh1030.yhl@gmail.com</a>
+                      </p>
+                    </div>
+                    <div class="col-sm text-center">
+                      <i class="fa fa-3x fa-github wow"></i>
+                      <p class="lead">
+                        <a href="https://github.com/YeongHo-Lee" target="_blank">github</a>
+                      </p>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2023 Yeongho Lee. All rights reserved.</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
